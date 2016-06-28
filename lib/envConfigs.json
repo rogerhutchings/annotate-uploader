@@ -1,0 +1,8 @@
+{
+  "staging": {
+    "projectId": "1630"
+  },
+  "production": {
+    "projectId": "245"
+  }
+}
