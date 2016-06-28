@@ -2,10 +2,25 @@
   "name": "uploads",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "bin": {
+    "annotate-uploader": "./lib/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib/*; exit 0"
   },
   "author": "Roger Hutchings <roger@hutchin.gs> (http://rogerhutchin.gs)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "lodash": "^4.13.1",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2"
+  }
 }
