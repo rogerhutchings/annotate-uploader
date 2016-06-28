@@ -1,0 +1,15 @@
+{
+  "activeEnv": "staging",
+  "envs": {
+    "staging": {
+      "projectId": "1630"
+    },
+    "production": {
+      "projectId": "245"
+    }
+  },
+  "panoptesAuth": {
+    "username": false,
+    "password": false
+  }
+}

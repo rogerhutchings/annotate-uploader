@@ -14,7 +14,8 @@
   "dependencies": {
     "commander": "^2.9.0",
     "lodash": "^4.13.1",
-    "meow": "^3.7.0"
+    "meow": "^3.7.0",
+    "panoptes-client": "^2.5.1"
   },
   "devDependencies": {
     "eslint": "^2.13.1",
