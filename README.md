@@ -4,6 +4,8 @@ Takes files provided by the Tate in their usual catalogue structure and uploads 
 
 ## Requirements
 
+Requires Node 4 LTS or higher.
+
 ## Installation
 
 This package is meant to be installed globally, so install by running:
