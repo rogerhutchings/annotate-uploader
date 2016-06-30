@@ -15,7 +15,10 @@
     "commander": "^2.9.0",
     "lodash": "^4.13.1",
     "meow": "^3.7.0",
-    "panoptes-client": "^2.5.1"
+    "panoptes-client": "^2.5.1",
+    "promptly": "^2.0.0",
+    "q": "^1.4.1",
+    "requestretry": "^1.9.0"
   },
   "devDependencies": {
     "eslint": "^2.13.1",
