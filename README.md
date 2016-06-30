@@ -1,6 +1,6 @@
 # AnnoTate Subject Uploader
 
-Takes files provided by the Tate in their usual catalogue structure and uploads them as subjects to AnnoTate on Panoptes.
+Takes files provided by the Tate in their usual catalogue structure and uploads them as subjects / sets to AnnoTate on Panoptes.
 
 ## Requirements
 
@@ -14,4 +14,33 @@ npm install -g annotate-upload
 
 ## Usage
 
-## More information
+```
+annotate-uploader <directory>
+```
+
+The following flags are available:
+
+```
+-h, --help        Show this help text
+-v, --version     Show the current version
+-u, --username    Set Panoptes username
+-p, --password    Set Panoptes password
+-e, --env         Set Panoptes environment (probably staging or production)
+```
+
+You can also store your Panoptes credentials as JSON in `~/.annotate_uploader`.
+
+Example:
+
+```
+{
+  "staging": {
+    "username": "user1",
+    "password": "foo"
+  },
+  "production": {
+    "username": "user2",
+    "password": "bar"
+  }
+}
+```

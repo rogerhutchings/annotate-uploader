@@ -1,18 +1,17 @@
 {
-  "name": "uploads",
+  "name": "annotate-uploader",
   "version": "1.0.0",
-  "description": "",
-  "bin": {
-    "annotate-uploader": "./lib/index.js"
+  "description": "Takes files provided by the Tate in their usual catalogue structure and uploads them as subjects / sets to AnnoTate on Panoptes.",
+  "bin": "./lib/index.js",
+  "engines": {
+    "node": "^4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint lib/*; exit 0"
   },
   "author": "Roger Hutchings <roger@hutchin.gs> (http://rogerhutchin.gs)",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
-    "commander": "^2.9.0",
     "lodash": "^4.13.1",
     "meow": "^3.7.0",
     "panoptes-client": "^2.5.1",
