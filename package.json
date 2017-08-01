@@ -17,7 +17,8 @@
     "panoptes-client": "^2.5.1",
     "promptly": "^2.0.0",
     "q": "^1.4.1",
-    "requestretry": "^1.9.0"
+    "requestretry": "^1.9.0",
+    "nconf": "^0.8"
   },
   "devDependencies": {
     "eslint": "^2.13.1",
