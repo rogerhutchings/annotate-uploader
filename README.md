@@ -2,6 +2,14 @@
 
 Takes files provided by the Tate in their usual catalogue structure and uploads them as subjects / sets to AnnoTate on Panoptes.
 
+## Docker Usage
+
+Clone this repo, then:
+
+```
+docker-compose run uploader <directory>
+```
+
 ## Requirements
 
 Requires Node 4 LTS or higher.
