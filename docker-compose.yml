@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  dev:
+    build:
+      context:  ./
+      dockerfile: Dockerfile
+    volumes:
+      - ${HOME}:${HOME}
+    working_dir: ${PWD}
+
+  uploader:
+    image: zooniverse/annotate-uploader
+    volumes:
+      - ${HOME}:${HOME}
+    working_dir: ${PWD}
